@@ -1,0 +1,5 @@
+module.exports = {
+  ALLOWED_DATE_FORMAT: ['M/D/YYYY', 'M/D/YY'],
+  DATE_FORMAT_STRICT_MODE: true,
+  DATE_COMPARISON_INCLUSIVE: '[]',
+};
