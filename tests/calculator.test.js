@@ -1,9 +1,9 @@
 const { expect } = require('@jest/globals');
-const calculator = require('./calculator');
+const calculator = require('../src/calculator');
 const moment = require('moment');
 const { ALLOWED_DATE_FORMAT,
   DATE_FORMAT_STRICT_MODE,
-} = require('./dateHelper');
+} = require('../src/dateHelper');
 
 it('calculates and gives a report for all', () => {
   const deliveries = [{

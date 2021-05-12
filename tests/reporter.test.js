@@ -1,5 +1,5 @@
 const { expect } = require('@jest/globals');
-const reporter = require('./reporter');
+const reporter = require('../src/reporter');
 
 it('generates all report', () => {
   const sportPlacement = {

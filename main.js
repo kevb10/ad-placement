@@ -2,11 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const csv = require('fast-csv');
 const moment = require('moment');
-const calculator = require('./calculator');
+const calculator = require('./src/calculator');
 
 const { ALLOWED_DATE_FORMAT,
   DATE_FORMAT_STRICT_MODE,
-} = require('./dateHelper');
+} = require('./src/dateHelper');
 
 const COMMAND_LINE_ARG = process.argv[2];
 
